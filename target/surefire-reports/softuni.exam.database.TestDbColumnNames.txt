@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: softuni.exam.database.TestDbColumnNames
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 s - in softuni.exam.database.TestDbColumnNames
