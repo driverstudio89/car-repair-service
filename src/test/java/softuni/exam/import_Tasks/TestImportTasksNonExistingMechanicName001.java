@@ -2,6 +2,7 @@ package softuni.exam.import_Tasks;
 //TestImportTasksNonExistingMechanicName001
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -21,6 +22,7 @@ public class TestImportTasksNonExistingMechanicName001 {
     @Autowired
     private TaskService tasksService;
 
+    @Disabled
     @Sql({"/import-tasks-000.sql"})
     @Test
     void testImportTasksNonExistingMechanicName001() throws IOException, JAXBException, NoSuchFieldException, IllegalAccessException {

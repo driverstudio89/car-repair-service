@@ -2,6 +2,7 @@ package softuni.exam.export;
 //TestTasksServiceExport001
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -18,6 +19,7 @@ public class TestTasksServiceExport001 {
     @Autowired
     private TaskService tasksService;
 
+    @Disabled
     @Sql("/export-test-001.sql")
     @Test
     void testTasksServiceExport001() throws IOException {

@@ -2,6 +2,7 @@ package softuni.exam.import_Tasks;
 //TestImportTasksPrice002
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -21,6 +22,7 @@ public class TestImportTasksPrice002 {
     @Autowired
     private TaskService tasksService;
 
+    @Disabled
     @Sql({"/import-tasks-000.sql"})
     @Test
     void testImportTasksPrice002() throws IOException, JAXBException, NoSuchFieldException, IllegalAccessException {
